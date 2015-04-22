@@ -8,6 +8,40 @@ body{
 	background-color: #f7dcb8; /* This is the tan colour*/
 }
 
+nav {
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+	background-color: #512200;
+	float: left;
+	padding: 1em 0;
+	opacity: 0.5;
+}
+
+.banner{
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding: 0em 0em 0em 0em;
+	max-width: 600px;
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+}
+
+.about {
+	width: 40%;
+}
+
 img {
 
 }
@@ -17,7 +51,8 @@ h1 {
 }
 
 h2 {
-
+	text-align: center;
+	color: white;
 }
 
 h3 {
@@ -26,6 +61,34 @@ h3 {
 	text-align: center;
 	font-size: 5rem;
 	padding: 0.3em;
+}
+
+.grilledcheese {
+	width: 40%;
+}
+
+.beer {
+	width: 40%;
+}
+
+.chips {
+	width: 40%;
+}
+
+.board {
+	width: 20%;
+}
+
+.rpg {
+	width: 20%;
+}
+
+.card {
+	width: 20%;
+}
+
+.word {
+	width: 20%;
 }
 
 .games {
