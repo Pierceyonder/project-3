@@ -8,8 +8,15 @@ body{
 	background-color: #f7dcb8; /* This is the tan colour*/
 }
 
-nav {
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	background-color: #2257be;
+	padding: 0.7em;
 	width: 100%;
+	float: left;
+	border: solid 3px #1f3873;
 }
 
 ul {
@@ -18,28 +25,25 @@ ul {
 }
 
 li {
-	list-style-type: none;
 	display: inline-block;
-	width: 25%;
-	background-color: #512200;
 	float: left;
-	padding: 1em 0;
-	opacity: 0.5;
+	width: 25%;
 }
 
 .banner{
 	background-image: url("../images/banner.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	clear: both;
 	text-align: center;
-	padding: 0em 0em 0em 0em;
-	max-width: 600px;
-	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+	margin-bottom: 1.5em;
 }
 
 .about {
 	width: 40%;
+	margin-left: 1.5em;
 }
 
 img {
@@ -47,12 +51,19 @@ img {
 }
 
 h1 {
-
+	color: white;
+	padding: 0.5em 0.5em 0.5em 0.3em;
+	margin: 0;
+	background-color: #231f20;
 }
 
 h2 {
-	text-align: center;
+	font-size: 3.5em;
 	color: white;
+	margin: 0;
+	bottom: 0%;
+	position: absolute;
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }
 
 h3 {
